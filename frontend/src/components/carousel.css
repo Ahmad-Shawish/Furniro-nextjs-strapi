@@ -1,0 +1,22 @@
+.slick-slide {
+  transition: transform 0.5s ease;
+  transform-origin: center top;
+}
+
+.slick-slide:not(.slick-current) {
+  transform: scale(0.85);
+}
+
+.slick-slide.slick-current {
+  transform: scale(1);
+}
+
+/* Example: Styling for Next Arrow */
+.slick-next {
+  scale: 2.5;
+}
+
+/* Example: Styling for Previous Arrow */
+.slick-prev {
+  scale: 2.5;
+}
